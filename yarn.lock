@@ -2090,6 +2090,16 @@ check-types@^8.0.3:
   resolved "https://registry.yarnpkg.com/check-types/-/check-types-8.0.3.tgz#3356cca19c889544f2d7a95ed49ce508a0ecf552"
   integrity sha512-YpeKZngUmG65rLudJ4taU7VLkOCTMhNl/u4ctNC56LQS/zJTyNH0Lrtwm1tfTsbLlwvlfsA2d1c8vCf/Kh2KwQ==
 
+chess.js@^0.10.2:
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.10.3.tgz#8c3b98e8411c2ff3ab4b1fc022ddebd1ae037120"
+  integrity sha512-i51JgVM0ksFMbLJYKoDpfrcFxJHq/XQQx8NltCdfMyDv7vpU5JVzsZz1EOw7nA27eGA5t8tSxodAN+Wc704BoQ==
+
+chessground@^7.2.10:
+  version "7.8.1"
+  resolved "https://registry.yarnpkg.com/chessground/-/chessground-7.8.1.tgz#90351b5a0f5dc95d812e80ee49e345de1ad89f06"
+  integrity sha512-l0CktUueF7Ebt2aSqCZBp8PC7c0gOXtAosYvMeHFsU06Ui/qLIChVhMXhdxrGLNHmx+4TlVnny8mOQ4DDPyuqA==
+
 chokidar@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.1.8.tgz#804b3a7b6a99358c3c5c61e71d8728f041cff917"
@@ -7829,6 +7839,14 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vue-chessboard@^0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/vue-chessboard/-/vue-chessboard-0.6.6.tgz#3e30b01252107be9f483f03f2cb15535b81f0c93"
+  integrity sha512-34f+RYvu/15dBFdt2rwHwRcNPaNRQDD3M7dZE0oxuO1y26VmOcocWR5qlcQm+XpbqmgIXPl4jLby3VAK8PM7gA==
+  dependencies:
+    chess.js "^0.10.2"
+    chessground "^7.2.10"
 
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
