@@ -1,5 +1,8 @@
 <template>
     <div id="app">
+        <h1>Play against minimax AI with Alpha-Beta pruning</h1>
+        <MinimaxAlphaBetaPruningBoard/>
+
         <h1>Play against minimax AI</h1>
         <MinimaxBoard/>
 
@@ -15,10 +18,12 @@
         import RandomAIBoard from "./components/RandomAIBoard";
         import PositionEvaluationBoard from "./components/PositionEvaluationBoard";
         import MinimaxBoard from "./components/MinimaxBoard";
+        import MinimaxAlphaBetaPruningBoard from "./components/MinimaxAlphaBetaPruningBoard";
 
         export default {
         name: 'App',
         components: {
+            MinimaxAlphaBetaPruningBoard,
             MinimaxBoard,
             PositionEvaluationBoard,
             RandomAIBoard
