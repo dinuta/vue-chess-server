@@ -1,22 +1,27 @@
 <template>
     <div id="app">
-<!--        <h1>Play against random AI</h1>-->
-<!--        <RandomAIBoard/>-->
+        <h1>Play against minimax AI</h1>
+        <MinimaxBoard/>
 
-        <h1>Position Evaluation AI</h1>
+        <h1>Play against position eval AI</h1>
         <PositionEvaluationBoard/>
+
+        <h1>Play against random AI</h1>
+        <RandomAIBoard/>
     </div>
 </template>
 
 <script>
-        // import RandomAIBoard from "./components/RandomAIBoard";
+        import RandomAIBoard from "./components/RandomAIBoard";
         import PositionEvaluationBoard from "./components/PositionEvaluationBoard";
+        import MinimaxBoard from "./components/MinimaxBoard";
 
         export default {
         name: 'App',
         components: {
+            MinimaxBoard,
             PositionEvaluationBoard,
-            // RandomAIBoard
+            RandomAIBoard
         }
     }
 </script>
