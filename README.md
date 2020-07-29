@@ -1,4 +1,6 @@
-# chess-server
+# vue-chess-server
+Vue js server implementing different AIs written in JS
+
 
 ## Project setup
 ```
@@ -22,3 +24,7 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# vue-chess-server
+Vue js server implementing different AIs written in JS
+>>>>>>> c211eee3386a1eedf52a5fbda792b2f8afb908c8
