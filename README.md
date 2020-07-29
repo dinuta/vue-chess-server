@@ -1,5 +1,6 @@
 # vue-chess-server
-Vue js server implementing different AIs written in JS
+Vue js server implementing different AIs written in JS.  
+Reference article: https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
 
 
 ## Project setup
