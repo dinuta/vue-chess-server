@@ -7,7 +7,7 @@
         data() {
             return {
                 positionCount: 0,
-                depth: 4
+                depth: 3
             }
         },
         methods: {
